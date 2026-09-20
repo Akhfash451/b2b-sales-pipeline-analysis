@@ -4,6 +4,8 @@ A CRM opportunity-level analysis of pipeline health, conversion, product perform
 
 **[View the Interactive Data Studio Dashboard](https://datastudio.google.com/reporting/435ae8a1-4d90-4e4c-b870-f5b9d04d6987)** *(Data Studio — formerly branded Looker Studio; Google renamed it back to Data Studio in April 2026)*
 
+📓 **[View the notebook on nbviewer](https://nbviewer.org/github/Akhfash451/b2b-sales-pipeline-analysis/blob/main/b2b_sales_analysis.ipynb)** — use this if GitHub's inline preview fails to render the `.ipynb` file (a known, intermittent GitHub limitation on notebooks with many embedded charts, unrelated to the file itself)
+
 ---
 
 ## Business Objective
@@ -95,8 +97,8 @@ The notebook follows **Business Question → Analysis → Result → Interpretat
 ## Reproducing This Analysis
 
 ```bash
-git clone <this-repository-url>
-cd <repository-folder>
+git clone https://github.com/Akhfash451/b2b-sales-pipeline-analysis.git
+cd b2b-sales-pipeline-analysis
 pip install pandas numpy matplotlib seaborn jupyter
 jupyter notebook b2b_sales_analysis.ipynb
 ```
